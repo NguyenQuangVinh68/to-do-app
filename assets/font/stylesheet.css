@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'SFMono';
+    src: url('SFMono-Medium.woff2') format('woff2'),
+        url('SFMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFMono';
+    src: url('SFMono-Bold.woff2') format('woff2'),
+        url('SFMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFMono';
+    src: url('SFMono-Light.woff2') format('woff2'),
+        url('SFMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFMono';
+    src: url('SFMono-Semibold.woff2') format('woff2'),
+        url('SFMono-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

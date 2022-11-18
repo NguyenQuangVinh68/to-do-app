@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>To do app</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="main">
+            <div class="banner"></div>
+            <div class="content">
+                <div class="tittle">
+                    <p>To do List</p>
+                </div>
+                <div class="form-input">
+                    <input id="text-todo" type="text" placeholder="Add a new todo" style="z-index: 10000;" autofocus>
+                    <button class="btn btn-purple" id="btn-add"> + </button>
+                </div>
+                <div class="task-list">
+                    <ul class="tasks" id="tasks"></ul>
+                </div>
+                <div class="controls">
+                    <ul class="controls-list">
+                        <li id="completed">Completed</li>
+                        <li id="alltasks">all task</li>
+                        <li id="clear">clear all</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js-client/ui.js"></script>
+</body>
+
+</html>
